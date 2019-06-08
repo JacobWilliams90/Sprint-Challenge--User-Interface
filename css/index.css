@@ -208,3 +208,21 @@ footer nav a {
 #box10{
     background: dodgerblue;
 }
+
+.abouttoptext{
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.amiddle-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amiddle-content div{
+    width: 370px;
+    margin: 20px 10px;
+    padding-bottom: 20px;
+    flex-flow: column wrap;
+    border-bottom: 1px dashed black;
+}
