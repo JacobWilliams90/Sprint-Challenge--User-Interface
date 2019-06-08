@@ -226,3 +226,22 @@ footer nav a {
     flex-flow: column wrap;
     border-bottom: 1px dashed black;
 }
+
+button {
+    border-radius: 8px;
+    background: white;
+    color: black;
+    padding:  7px 10px;
+    margin-top: 10px;
+    width: 125px;
+    border: solid 2px;
+}
+
+button:hover{
+    color: white;
+    background: black;
+}
+
+.amiddle-content h2, p{
+    padding-top: 10px;
+}
