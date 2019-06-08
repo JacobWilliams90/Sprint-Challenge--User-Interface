@@ -69,6 +69,12 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    animation-name: b2w;
+    animation-duration: 2s;
+}
+@keyframes b2w{
+    from {background-color: black;}
+    to{background-color: white;}
 }
 
 header {
@@ -245,3 +251,4 @@ button:hover{
 .amiddle-content h2, p{
     padding-top: 10px;
 }
+
