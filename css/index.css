@@ -69,6 +69,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    animation-name: b2w;
+    animation-duration: 2s;
+}
+@keyframes b2w{
+    from {background-color: black;}
+    to{background-color: white;}
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+header nav{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    width: 640px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    padding: 20px 0;
 }
 
 .top-content {
@@ -144,3 +174,81 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
+.abouttoptext{
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.amiddle-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amiddle-content div{
+    width: 370px;
+    margin: 20px 10px;
+    padding-bottom: 20px;
+    flex-flow: column wrap;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    border-radius: 8px;
+    background: white;
+    color: black;
+    padding:  7px 10px;
+    margin-top: 10px;
+    width: 125px;
+    border: solid 2px;
+}
+
+button:hover{
+    color: white;
+    background: black;
+}
+
+.amiddle-content h2, p{
+    padding-top: 10px;
+}
+
